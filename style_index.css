@@ -1,0 +1,731 @@
+
+
+/* оформление секции с монстром */
+.body__section_letter{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 200;
+
+    font-size: 60px;
+
+    line-height: 73px;
+
+    color: #1E0606;
+
+    opacity: 5%;
+
+    margin-top: 17px;
+
+    padding-left: 28px;
+
+    
+}
+
+.body__section_ul{
+    display: block
+
+    padding-left: 31px;
+
+    margin-top: 10px;
+
+    margin-bottom: 0px;
+}
+
+.body__section__li_button{
+    border: none;
+
+    width: 31px;
+    
+    height: 3px;
+
+    background: #D6CAC2;
+}
+
+.active{
+    background: #1E060699;
+
+    opacity: 60%;
+
+    padding: 0px;
+}
+
+.passive{
+    margin-top: 11px;
+    padding: 0px;
+}
+
+.body__section__h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+    height: 88px;
+
+    width: 307px;
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+    line-height: 44px;
+
+    color: #1E0606;
+
+   position: sticky;
+
+   margin-top: -72px;
+
+   margin-left: 133px;
+
+   display: flex;
+}
+
+.body__section__p{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    color: #1E0606;
+
+    position: sticky;
+
+    margin-top: 20px;
+
+    margin-left: 133px;
+
+    display: flex;
+}
+
+.body__section__button_explore{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+    background: #000000;
+
+    padding: 9px 22px
+}
+
+.explore{
+    position: relative;
+
+    display: flex;
+
+    margin-top: 20px;
+
+    margin-left: 133px;
+
+    border: none;
+}
+
+.explore:hover{
+    background: #C29974;
+}
+
+.explore:active{
+    background: #CFAF91;
+}
+
+.explore:disabled{
+    background: #C7C1C1;
+}
+
+
+.img_monstr{
+    position: static;
+
+    margin-left: 445px;
+
+    margin-top: -380px;
+
+    margin-bottom: 0px;
+}
+
+.body__section__button_explore :hover{
+    background: #C29974;
+}
+
+.body__section__button_explore :active{
+    background: #CFAF91;
+}
+
+.body__section_p{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 12px;
+
+    color: #FFFFFF;
+
+    background: #C29974;
+
+    padding: 11px 364px;
+    margin-top: -4px;
+}
+
+
+.body__section_01{
+    width: inherit;
+
+    height: 411px;
+
+    background: #EEE4DB;
+
+    margin-left: 110px;
+
+    margin-right: 110px;
+
+    margin-top: 129px;
+}
+
+/* секция категория продуктов */
+
+.body__section__h2_category{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 38px;
+
+    color: #1E0606;;
+
+    margin-top: 90px;
+
+    margin-left: 110px;
+
+    margin-right: 110px;
+}
+/* сам список */
+.body__section__ul_category{
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    margin-left: 110px;
+
+    margin-right: 110px;
+}
+/* первая лишка */
+.body__section__ul__li_category{
+    position: relative;   
+
+    background: #DBE4DB;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+}
+
+.body__section__ul__li__link_img_sweater{
+    background: transparent;
+
+    
+}
+/* спан */
+.body__section__li__a_span{
+    position: absolute;
+
+    top: 103px;
+
+    left: 75px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 129px;
+
+    text-align: center;
+
+    
+}
+
+.body__section__ul__li_stocking{
+    position: relative;   
+
+    background: #EADDD3;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.body__section__ul__li__link_img_stocking{
+    background: transparent;
+}
+
+.body__section__ul__li_deer{
+    position: relative;   
+
+    background: #F8F2DA;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.body__section__ul__li__link_img_deer{
+    background: transparent;
+}
+
+.body__section__li__a_span_s{
+    position: absolute;
+
+    top: 119px;
+
+    left: 104px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 71px;
+
+    text-align: center;
+}
+
+.body__section__ul__li_bigfoot{
+    position: relative;   
+
+    background: #D5D4E1;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.body__section__li__a_span_b{
+    position: absolute;
+
+    top: 119px;
+
+    left: 44px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 71px;
+
+    text-align: center;
+}
+/* кнопки листания */
+.body__section__button_1{
+    background:#70BBDC33;
+
+    border: none;
+
+    width: 37px;
+
+    height: 37px;
+
+    margin-top: 33px;
+
+    margin-right: 6px;
+
+    margin-left: 110px;
+}
+
+.body__section__button_2{
+    background:#70BBDC33;
+
+    border: none;
+
+    width: 37px;
+
+    height: 37px;
+
+    margin-top: 33px;
+
+   
+}
+
+.body__section__p_modern{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    display: flex;
+
+    width: 580px;
+
+    height: 44px;
+
+    margin-left: 218px;
+
+    margin-top: -41px;
+
+    margin-bottom: 0px;
+}
+/* секция деливери */
+.body__section_img_lass{
+    margin-top: 90px;
+
+    float: left;
+
+    margin-left: 110px;
+}
+/* див */
+.body__section_div{
+    display: flex;
+
+    padding-top: 90px;
+
+    padding-left: 121px;
+
+    flex-direction: column;
+
+    padding-bottom: 15px;
+}
+
+.body__section_h2{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 38px;
+
+    color: #1E0606;
+
+    margin-top: 30px;
+
+    margin-bottom: 0px;
+}
+
+.body__section__ul_delivery{
+    padding-left: 0px;
+
+    margin: 0px;
+}
+
+.body__section__ul__li_p_delivery{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    color: #1E0606;
+
+    background: #70BBDC33;
+
+    width: 326px;
+
+    height: 55px;
+
+    padding: 11px 180px 11px 60px;
+
+    line-height: 33.79px;
+
+    display: flex;
+
+    margin-left: -60px;
+
+    margin-top: 6px;
+
+    align-items: center;
+}
+
+.body__section__ul__li_guarantee{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 26px;
+
+    color: #1E0606;
+
+    margin-top: 11px;
+}
+
+.body__section__ul__li_credit{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 26px;
+
+    color: #1E0606;
+
+    margin-top: 22px;
+}
+
+.body__section__p_some{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin-top: 30px;
+
+    width: 480px;
+
+    height: 66px;
+
+    margin-bottom: 0px;
+}
+
+.body__section__p_what{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin-top: 15px;
+
+    width: 480px;
+
+    height: 88px;
+
+    margin-bottom: 0px;
+}
+
+.body__section__a_learn_more{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+    background: #000000;
+
+    padding: 9px 22px;
+
+    align-items: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 26px;
+
+    width: 105px;
+
+    height: 22px;
+}
+/* секция с логотипами */
+.body__section__ul_logo{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 91px;
+
+    padding: 0px;
+
+    margin-left: 110px;
+
+    margin-right: 110px;
+
+    margin-bottom: 0px;
+}
+/* секция с двумя разделениями,первая */
+.body__div_content{
+    display: flex;
+
+    margin-left: 110px;
+
+    margin-right: 110px;
+}
+
+.body__div__section_1{
+    background: #E1F0F7;
+
+    width: 543px;
+
+    height: 228px;
+
+    padding-left: 30px;
+
+    margin-top: 116px
+}
+
+.body__div__h2_design{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 38px;
+
+    color: #1E0606;
+
+    margin-top: -25px;
+
+    margin-bottom: 0px;
+}
+
+.body__div__p_about{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 26px;
+
+    color: #1E0606;
+
+    margin-top: 10px;
+
+    margin-bottom: 0px;
+}
+
+.body__div__p_some{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin-top: 10px;
+
+    margin-bottom: 0px;
+
+    width: 483px;
+}
+
+.body__div__a_button{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+    background: #000000;
+
+    width: 123px;
+
+    height: 40px;
+
+    padding: 9px 22px;
+
+    align-items: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 20px;
+
+    width: 79px;
+
+    height: 22px;
+}
+/* вторая */
+.body__div__section_2{
+    background: #E1F0F7;
+
+    width: 543px;
+
+    height: 209px;
+
+    margin-left: 57px;
+
+    margin-top: 116px;
+
+    padding-left: 30px;
+
+    margin-bottom: 174px;
+
+}
+
+.body__div__h2_contacts{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 38px;
+
+    color: #1E0606;
+
+    margin-top: -25px;
+
+}
+
+.body__div__p_soma{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+
+    width: 483px;
+
+    
+}

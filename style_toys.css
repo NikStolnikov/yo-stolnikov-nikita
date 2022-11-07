@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .body__h1_toy{
     font-family: 'Montserrat', sans-serif;
 
@@ -508,4 +509,609 @@ input[type=checkbox] {
     color: #1E0606;
 
     background-color: #EDDEEB;
+=======}
+.body__h1_toy{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+    color: #1E0606;
+
+    margin: 60px 0px 0px 110px;
+
+    width: 320px;
+
+    height: 49px;
+}
+
+.body__div_anchor{
+    margin-top: 15px;
+
+    margin-left: 110px;
+}
+
+.body__div__a_home{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    color: #1E0606;
+
+    margin-right: 20px;
+}
+
+.body__div__a_catalog{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    color: #1E0606;
+
+    margin-left: 20px;
+}
+
+.body__div__a_toys{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    color: #1E0606;
+
+    margin-left: 20px;
+
+    opacity: 50%;
+}
+
+.body__form{
+    background: #7D97DA33;
+
+    max-width: 1400px;
+
+    height: 254px;
+
+    border: none;
+
+    display: flex;
+
+    padding-left: 110px;
+
+    padding-top: 42px;
+
+    margin-top: 50px;
+}
+/* ползунок,недоделаный */
+.body__form__fielset_cost{
+    width: 207px;
+
+    height: 89px;
+
+    border: none;
+
+    margin: 0px;
+
+    padding: 0px;
+}
+
+.body__form__firlset__label_cost{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    display: flex;
+}
+
+.body__form__fielset__input_range_cost{
+    width: 188px;
+
+    height: 4px;
+
+    margin: 25px 0px 0px 0px;
+
+    padding: 0px;
+}
+
+.body__form__fielset__input_range_cost[type=range]:focus {
+    outline: none;
+}
+
+.body__form__fielset__input_range_cost[type=range]::-ms-track{
+    background: none;
+}
+
+.body__form__fielset__input_range_cost[type=range]::-webkit-slider-thumb{
+    border-radius: 0px;
+
+    background: #000000;
+}
+/* чекбоксы колор */
+.body__form__fielset_color{
+    width: 75px;
+
+    height: 170px;
+
+    border: none;
+
+    margin-top: 0px;
+
+    margin-left: 94px;
+
+    padding: 0px;
+
+    margin-right: 0px;
+
+}
+
+
+.body__form__fielset__h2_color{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin: 0px;
+
+    width: 43px;
+
+    height: 22px;
+}
+
+.body__form__fielset__ul_color{
+    margin: 15px 0px 0px 0px;
+
+    padding: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.body__form__fielset_color label{
+    position: relative;
+
+    display: inline-block;
+
+    padding-left: 29px;
+
+    margin-bottom: 18px;
+
+    text-align: center;
+    
+    vertical-align: middle;
+
+    cursor: pointer;
+}
+
+.body__form__fielset_color label::before,
+.body__form__fielset_color label::after{
+    position: absolute;
+
+    content: "";
+
+    display: inline-block;
+
+    box-sizing: border-box;
+}
+
+.body__form__fielset_color label::before{
+    height: 19px;
+
+    width: 19px;
+
+    border: 2px solid #C29974;
+
+    background-color: initial;
+
+    left: 1px;
+
+    top: 1px;
+
+    border-radius: 3px;
+
+    
+}
+
+.body__form__fielset_color label::after{
+    height: 7px;
+
+    width: 13px;
+
+    border-left: 3px solid #C29974;
+
+    border-bottom: 3px solid #C29974;
+    
+    transform: rotate(-45deg);
+    
+    left: 6px;
+
+    top: 4px;
+
+    border-radius: 0.7px;
+}
+
+.body__form__fielset_color input[type="checkbox"] + label::after{
+    content: none;
+}
+
+.body__form__fielset_color input[type="checkbox"]:checked + label::after{
+    content: "";
+}
+/* радиокнопки */
+.body__form__fielset_delivery{
+    border: none;
+
+    margin-left: 124px;
+
+    margin-top: 0px;
+
+    width: 131px;
+
+    height: 91px;
+
+    padding: 0px;
+}
+
+.body__form__fieldset_h2_delivery{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin: 0px;
+
+    font-style: normal;
+
+    width: 67px;
+
+    height: 22px;
+}
+
+.body__form__fieldset_ul_delivery{
+    margin-top: 15px;
+
+    padding: 0px;
+}
+
+.body__form__fielset_delivery input[type="radio"]{
+    display: none;
+}
+
+.body__form__fielset_delivery label{
+    display: inline-block;
+
+    position: relative;
+
+    padding-left: 30px;
+
+    line-height: 20px;
+
+    margin-bottom: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    text-align: center;
+    
+    vertical-align: middle;
+
+    cursor: pointer;
+}
+
+.body__form__fielset_delivery label::before,
+.body__form__fielset_delivery label::after{
+    position: absolute;
+
+    content: "";
+
+    display: inline-block;
+
+    box-sizing: border-box;
+}
+
+.body__form__fielset_delivery label::before{
+    content: "";
+
+    display: inline-block;
+
+    width: 20px;
+
+    height: 20px;
+
+    position: absolute;
+
+    left: 1px;
+
+    bottom: 1px;
+
+    border: 2px solid #C29974;
+
+    background: initial;
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+.body__form__fielset_delivery label::after{
+    height: 12px;
+
+    width: 12px;
+
+    border-bottom: 12px solid #C29974;
+    
+    left: 5px;
+
+    top: 3px;
+
+    border-radius: 10px;
+}
+
+.body__form__fielset_delivery input[type="radio"] + label::after{
+    content: none;
+}
+
+.body__form__fielset_delivery input[type="radio"]:checked +label::after{
+    content: "";
+}
+
+/* радиокнопки кнопками */
+.body__form__fielset_amount{
+    margin-left: 69px;
+
+    margin-top: 0px;
+
+    width: 240px;
+
+    height: 72px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    margin-right: 60px;
+
+    border: none;
+
+    flex-direction: column;
+
+    padding: 0px;
+}
+
+.body__form__fielset_h2_amount{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin: 0px;
+
+    font-style: normal;
+
+    width: 65px;
+
+    height: 22px;
+}
+
+.body__form__fielset_ul_amount{
+    margin: 15px 0px 0px 0px;
+
+    padding: 0px;
+
+    display: flex; 
+}
+
+.body__form__fielset_amount input[type="radio"]{
+    display: none;
+}
+
+.body__form__fielset__label_amount{
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    background-color: #FFFFFF;
+
+    width: 80px;
+
+    height: 35px;
+
+    -webkit-box-align: center;
+
+        -ms-flex-align: center;
+
+            align-items: center;
+
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+}
+
+.body__form__fielset__label_amount:hover{
+    background-color:  #EDDEEB;
+
+    cursor: pointer;
+}
+
+.body__form__fielset__input_amount:checked +label{
+    background-color: #F3D0DB;
+}
+
+.body__form_button{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+    background: #000000;
+
+    border: 0px;
+
+    width: 95px;
+
+    height: 40px;
+
+    align-content: center;
+
+    padding: 0px;
+
+    margin-top: 37px;
+}
+
+.body__form_button:hover{
+    background-color: #C29974;
+}
+
+.body__form_button:active{
+    background-color: #CFAF91;
+}
+
+.body__form_button:disabled{
+    background-color: #C7C1C1;
+}
+
+.body__section{
+    margin: 60px 110px 0px 110px;
+
+    max-width: 1180px;
+}
+
+.body__section_ul{
+    display: flex;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.body__section__li_a{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+    color: #1E0606;
+
+    width: 380px;
+
+    height: 497px;
+}
+
+.body__section__li_span1{
+    margin-top: 30px;
+}
+
+.body__section__li__a_span{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    margin-top: 15px;
+}
+
+.body__section_div{
+    display: flex;
+
+    margin: 53px 3px 63px 3px;
+}
+
+.body__section_div_a{
+    float: left;
+
+    display: flex;
+
+    margin-left: 0px;
+}
+
+.body__section_div_a1{
+    float: right;
+
+    display: flex;
+
+    margin-right: 0px;
+
+    margin-left: auto;
+}
+
+.body__section__div_ul{
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 0px;
+
+    padding: 0px 0px 0px 457px;
+
+    width: 234px;
+
+    height: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 20px;
+
+    color: #1E0606;
+}
+
+.body__section__div_ul_li_a{
+    color: #C29974;
+>>>>>>> Stashed changes
 }

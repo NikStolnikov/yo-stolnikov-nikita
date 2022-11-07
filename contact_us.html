@@ -10,7 +10,7 @@
     </style>
     <link rel="stylesheet" type="text/css"
         href="Stile.css">
-    <link rel="stylesheet" type="text/css" href="stile_catalog.css">
+    <link rel="stylesheet" type="text/css" href="style_contact_us.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&&display=swap" rel="stylesheet">
+    <link rel="stilesheet" type="text/css" href="/normalize.css"
   </head>
   <body>
     <header class="header">
@@ -79,10 +80,10 @@
         </a>
         <a href="/contact_us.html" class="body__header__div_alink_contact">Contact Us</a>
       </div>
-  </header>
-    <h1 class="body__h1">CATEGORY PRODUCTS</h1>
-    <div class="body_div">
-      <a href="/index.html" class="body__div_a_home">Home</a>
+    </header>
+    <h1 class="body_h1">Contact Us</h1>
+    <div class="body__div">
+      <a href="/index.html" class="body__div__a_home">Home</a>
       <svg
         width="8"
         height="12"
@@ -97,66 +98,32 @@
           fill="#1E0606"
         />
       </svg>
-      <a href="/catalog.html" class="body__div_a_catalog">Catalog</a>
+      <a href="/contact_us.html" class="body__div__a_contact_us">Contact us</a>
     </div>
-    <section>
-      <h2 class="body__section_h2_hover"></h2>
-      <ul class="body__section_ul">
-        <li class="body__section__ul__li_sweater">
-          <a href="#"
-            ><img src="./images/png_jpg/sweater.png" alt="sweater" /><span class="body__section__ul__li__a__span_apparel">APPAREL
-            KIDS</span></a
-          >
-        </li>
-        <li class="body__section__ul__li_stocking">
-          <a href="#"
-            ><img src="./images/png_jpg/stocking2.png" alt="stocking" /><span class="body__section__ul__li__a__span_holiday">HOLIDAY
-            SHOP</span></a
-          >
-        </li>
-        <li class="body__section__ul__li_toys">
-          <a href="/toys.html"
-            ><img src="./images/png_jpg/deer2.png" alt="deer" /><span class="body__section__ul__li__a__span_toys">TOYS</span></a
-          >
-        </li>
-        <li class="body__section__ul__li_accessories">
-          <a href="#"
-            ><img
-              src="./images/png_jpg/bigfoot2.png"
-              alt="bigfoot"
-            /><span class="body__section__ul__li__a__span_accessories">ACCESSORIES</span></a
-          >
-        </li>
-        <li class="body__section__ul__li_sale">
-          <a href="#"
-            ><img src="./images/png_jpg/flamingos.png" alt="flamingos" /><span class="body__section__ul__li__a__span_sale">SALE</span></a
-          >
-        </li>
-        <li class="body__section__ul__li_apparel">
-          <a href="#"
-            ><img src="./images/png_jpg/blouse.png" alt="blouse" /><span class="body__section__ul__li__a__span_apparel">APPAREL
-            ADULTS</span></a
-          >
-        </li>
-      </ul>
-    </section>
-    <section class="body__section_product">
-      <h2 class="body__section__h2_product">PRODUCT DESCRIPTION</h2>
-      <p class="body__section__p_interactive">
-        Interactive doll Zapf Creation Baby Born Sister can drink from a bottle
-        and almost really cry. You can even bathe her, just like a little
-        sister.
+    <section class="body__section container">
+      <form action="#" class="body__section_form ">
+        <label for="name" class="body__section__form_label_name">Name</label>
+        <input type="text" name="Name" id="name" placeholder="Ivan Ivanov" class="body__section__form_input_name">
+        <label for="phone" class="body__section__form_label_phone">Phone</label>
+        <input type="text" name="Phone" id="phone" class="body__section__form_input_phone">
+        <label for="email" class="body__section__form_label_email">Email</label>
+        <input type="email" name="E-mail" id="email" class="body__section__form_input_email">
+        <label for="Message" class="body__section__form_label_">Message</label>
+        <textarea name="Message" id="Message" cols="30" rows="10" class="body__section__form_textarea_"></textarea>
+        <input type="checkbox" checked name="clicking" id="checkbox" class="body__section__form_input_"> 
+        <label for="checkbox" class="body__section__form_label_">clicking on the button, you consent
+          to the processing of your personal data</label> 
+        <button type="submit">Submit</button>
+      </form>
+      <p class="body__section_p_our">
+        Our support team are on-hand to assist with any issues you are
+        experiencing.
       </p>
-      <p class="body__section__p_toy">
-        A toy with a height of 43 cm bends its knees, the head rotates, it can
-        stand upright. Such a doll will be an excellent choice for a gift for a
-        girl from 4 years old.
+      <p class="body__section_p_please">
+        Please use the form to contact us with your needs. Send us a message and
+        we'll respond as soon as possible.
       </p>
-      <p class="body__section__p_the">
-        The set includes a miniature set of fashionable clothes, a hairbrush, a
-        bottle for water, a pair of hairpins and elastic bands for hair, as well
-        as two bracelets: one for the doll, the other for her young mistress.
-      </p>
+      <h2 class="body__section_h2">An expert is waiting to help you!</h2>
     </section>
     <footer class="body_footer">
       <section>
@@ -258,8 +225,8 @@
         </li>
       </ul>
       </section>
-      <section>
-        <h2></h2>
+      <section class="body__footer__section4">
+        <h2 class="h2_none"></h2>
         <p>
           Company Rating
           <svg

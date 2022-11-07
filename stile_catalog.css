@@ -1,0 +1,386 @@
+.body__h1{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+    color: #1E0606;
+
+    margin-left: 110px;
+
+    margin-top: 60px;
+
+    margin-bottom: 0px;
+
+    width: 478px;
+
+    height: 49px;
+}
+
+.body_div{
+    margin-top: 15px;
+
+    margin-left: 110px;
+}
+
+.body__div_a_home{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    color: #1E0606;
+
+    width: 42px;
+
+    height: 25px;
+
+    margin-right: 20px;
+}
+
+.body__div_a_catalog{
+    font-family: 'Crimson Text', serif;
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    color: #1E0606;
+
+    width: 56px;
+
+    height: 25px;
+
+    opacity: 50%;
+
+    margin-left: 20px;
+}
+
+.body__section_h2_hover{
+    display: none;
+}
+
+.body__section_ul{
+    display: flex;
+
+    justify-content: flex-start;
+
+    padding-left: 0px;
+
+    margin-left: 110px;
+
+    margin-right: 210px;
+
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+
+    margin-bottom: 0px;
+}
+/* свитер */
+.body__section__ul__li_sweater{
+    position: relative;   
+
+    background: #DBE4DB;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.body__section__ul__li__a__span_apparel{
+    position: absolute;
+
+    top: 103px;
+
+    left: 75px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 129px;
+
+    text-align: center;
+}
+
+.body__section__ul__li_stocking{
+    position: relative;   
+
+    background: #EADDD3;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-left: 20px;
+}
+
+.body__section__ul__li__a__span_holiday{
+    position: absolute;
+
+    top: 103px;
+
+    left: 75px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 129px;
+
+    text-align: center;
+}
+.body__section__ul__li_toys{
+    position: relative;   
+
+    background: #F8F2DA;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-left: 20px;
+}
+
+.body__section__ul__li__a__span_toys{
+    position: absolute;
+
+    top: 120px;
+
+    left: 79px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 119px;
+    
+    text-align: center;
+}
+
+.body__section__ul__li_accessories{
+    position: relative;   
+
+    background: #D5D4E1;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-left: 200px;
+
+    margin-top: 23px;
+}
+
+.body__section__ul__li__a__span_accessories{
+    position: absolute;
+
+    top: 118px;
+
+    left: 46px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 71px;
+
+    text-align: center;
+}
+
+.body__section__ul__li_sale{
+    position: relative;
+
+    background: #F3D0DB;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-left: 20px;
+
+    margin-top: 23px;
+}
+
+.body__section__ul__li__a__span_sale{
+    position: absolute;
+
+    top: 119px;
+
+    left: 72px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 129px;
+
+    text-align: center;
+}
+
+.body__section__ul__li_apparel{
+    position: relative;
+
+    background: #E5EAF8;
+
+    width: 280px;
+
+    height: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-left: 20px;
+
+    margin-top: 23px;
+}
+
+.body__section__ul__li__a__span_apparel{
+    position: absolute;
+
+    top: 103px;
+
+    left: 75px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 31.69px;
+
+    color: #FFFFFF;
+
+    width: 129px;
+
+    text-align: center;
+}
+
+.body__section_product{
+    margin-top: 55px;
+
+    margin-left: 310px;
+}
+
+.body__section__h2_product{
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 40px;
+
+    color: #1E0606;
+
+    margin: 0px;
+}
+
+.body__section__p_interactive{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    width: 680px;
+
+    height: 44px;
+}
+
+.body__section__p_toy{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    width: 680px;
+
+    height: 44px;
+}
+
+.body__section__p_the{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    color: #1E0606;
+
+    width: 680px;
+
+    height: 66px;
+
+    margin-bottom: 55px;
+}
