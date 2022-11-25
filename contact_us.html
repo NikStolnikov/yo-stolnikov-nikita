@@ -4,13 +4,10 @@
     <meta charset="utf-8" />
     <title>Разметка главной страницы личного проекта</title>
     <style>
-      li {
-        list-style-type: none;
-      }
     </style>
     <link rel="stylesheet" type="text/css"
-        href="Stile.css">
-    <link rel="stylesheet" type="text/css" href="style_contact_us.css">
+        href="common.css">
+    <link rel="stylesheet" type="text/css" href="contact_us.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -22,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&&display=swap" rel="stylesheet">
-    <link rel="stilesheet" type="text/css" href="/normalize.css"
+    <link rel="stilesheet" type="text/css" href="/normalize.css">
   </head>
   <body>
     <header class="header">
@@ -52,13 +49,13 @@
       </a>
       <nav class="nav">
         <ul class="nav__ul">
-          <li class="nav__ul_li">
+          <li class="nav__ul_li list">
             <a href="/blog.html" class="nav__ul__li__link">Blog</a>
           </li>
-          <li>
+          <li class="list">
             <a href="/catalog.html" class="nav__ul__li__link">Catalog</a>
           </li>
-          <li>
+          <li class="list">
             <a href="#" class="nav__ul__li__link">About Us</a>
           </li>
         </ul>
@@ -102,12 +99,16 @@
     </div>
     <section class="body__section container">
       <form action="#" class="body__section_form ">
-        <label for="name" class="body__section__form_label_name">Name</label>
-        <input type="text" name="Name" id="name" placeholder="Ivan Ivanov" class="body__section__form_input_name">
-        <label for="phone" class="body__section__form_label_phone">Phone</label>
-        <input type="text" name="Phone" id="phone" class="body__section__form_input_phone">
-        <label for="email" class="body__section__form_label_email">Email</label>
-        <input type="email" name="E-mail" id="email" class="body__section__form_input_email">
+       
+          <label for="name" class="body__section__form_label_name">Name</label>
+          <input type="text" name="Name" id="name" placeholder="Ivan Ivanov" class="body__section__form_input_name">
+        <fieldset class="body__section_form_fielset">
+          <label for="phone" class="body__section__form_label_phone">Phone</label>
+          <input type="text" name="Phone" id="phone" class="body__section__form_input_phone">
+          <label for="email" class="body__section__form_label_email">Email</label>
+          <input type="email" name="E-mail" id="email" class="body__section__form_input_email">
+      </fieldset>
+
         <label for="Message" class="body__section__form_label_">Message</label>
         <textarea name="Message" id="Message" cols="30" rows="10" class="body__section__form_textarea_"></textarea>
         <input type="checkbox" checked name="clicking" id="checkbox" class="body__section__form_input_"> 
@@ -129,23 +130,23 @@
       <section>
         <h2 class="body__footer__section__h2_navigation">Navigation</h2>
         <ul class="body__footer__section__ul">
-          <li><a href="#" class="body__footer__section__ul_li_a">About Us</a></li>
-          <li><a href="/blog.html" class="body__footer__section__ul_li_a blog">Blog</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Design Services</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Featured On</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">2018 Holiday Catalog</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Shop By Designer</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">About Us</a></li>
+          <li class="list"><a href="/blog.html" class="body__footer__section__ul_li_a blog">Blog</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Design Services</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Featured On</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">2018 Holiday Catalog</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Shop By Designer</a></li>
         </ul>
       </section>
       <section class="body__footer__section_2">
         <h2 class="body__footer__section__h2_cusomer">Customer Information</h2>
         <ul class="body__footer__section__ul">
-          <li><a href="#" class="body__footer__section__ul_li_a">Contact Us</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Sale Exclusions</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Shipping & Returns</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Terms & Conditions</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Privacy Policy</a></li>
-          <li><a href="#" class="body__footer__section__ul_li_a">Search</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Contact Us</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Sale Exclusions</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Shipping & Returns</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Terms & Conditions</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Privacy Policy</a></li>
+          <li class="list"><a href="#" class="body__footer__section__ul_li_a">Search</a></li>
         </ul>
       </section>
       <section class="body__footer__section_3">
@@ -155,7 +156,7 @@
           <button type="submit" class="body__footer__section3__button">Join</button>
         </form>
         <ul class="body__footer__section3__ul">
-        <li><a href="https://www.facebook.com/" class="body__footer__section3__a_f">
+        <li class="list"><a href="https://www.facebook.com/" class="body__footer__section3__a_f">
           <svg
             width="9"
             height="16"
@@ -172,7 +173,7 @@
           </svg>
         </a>
         </li>
-        <li><a href="https://hca.twimg.com/ru/using-twitter/create-twitter-account" class="body__footer__section3__a_t">
+        <li class="list"><a href="https://hca.twimg.com/ru/using-twitter/create-twitter-account" class="body__footer__section3__a_t">
           <svg
             width="15"
             height="13"
@@ -189,7 +190,7 @@
           </svg>
         </a>
         </li>
-        <li><a href="https://ru.pinterest.com/" class="body__footer__section3__a_p">
+        <li class="list"><a href="https://ru.pinterest.com/" class="body__footer__section3__a_p">
           <svg
             width="16"
             height="16"
@@ -206,7 +207,7 @@
           </svg>
         </a>
         </li>
-        <li><a href="instagram.com" class="body__footer__section3__a_i">
+        <li class="list"><a href="instagram.com" class="body__footer__section3__a_i">
           <svg
             width="16"
             height="16"
